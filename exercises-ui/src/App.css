@@ -1,0 +1,92 @@
+body {
+  background-color: #00113f;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#homeHead, #addExer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  color: #54e3ff;
+  padding-top: 24px;
+  position: relative;
+}
+
+#addPage {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  border: solid 6px;
+  border-color: #04AA6D;
+  border-radius:18px;
+  background-color: #04AA6D;
+  color: #54e3ff;
+
+}
+
+#exercise {
+  border: solid 6px;
+  border-color: #ebd9ff;
+  background-color: #ebd9ff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  border-radius: 12px;
+
+}
+
+#tableHeader {
+  border: solid 4px;
+  border-color: #ddd;
+  background-color: #ebd9ff;
+}
+
+input {
+  border: solid 3px;
+  border-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: antiquewhite;
+  background-color: #00113f;
+
+}
+
+button {
+  border: groove 6px;
+  border-color: #00113f;
+  font-size: 24px;
+  background-color: #00113f;
+  color:antiquewhite;
+}
